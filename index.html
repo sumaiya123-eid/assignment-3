@@ -9,18 +9,91 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <style>
+      .manrope{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
     <!-- font-awesome -->
 
     <script src="https://kit.fontawesome.com/55d84a2faa.js" crossorigin="anonymous"></script>
 
     <!-- google-font -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+      
 
 </head>
-<body>
-    <header>
-
+<body class="manrope">
+    <header class="px-4 py-3 md:pl-7 max-w-screen-xl mx-auto">
+      <nav>
+        <div class="navbar bg-base-100 flex justify-between md:flex md:justify-between">
+          <div>
+            <button class=" btn-circle bg-[#ABEF5F]">
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </button>
+            <a class=" text-4xl font-extrabold text-[#212121]">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base text-[#737373]">
+              <li><a class="font-bold text-[#494949]">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              
+            </ul>
+          </div>
+          <div class="hidden md:flex md:gap-3 ">
+            <button class=" btn-circle bg-[#E9E9E9]">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="btn-circle bg-[#E9E9E9]">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+              <button class=" bg-[#ABEF5F] rounded-full py-3 px-5">
+              <div class="flex items-center justify-center gap-2">
+                <p class="text-xl font-bold text-[#1C1C1C]">Book Consult</p>
+                <div class="rounded-full bg-[#1C1C1C] py-2 px-3">
+                <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+              </div>
+            </div>
+            </button>
+              
+            
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="lg:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="">
+              <img class="mx-auto" src="./assets/banner.png" alt="" srcset="">
+              <h1 class="text-3xl md:text-5xl font-extrabold text-[#212121]">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
+              <p class="text-sm py-4 md:text-base md:py-6 text-[#494949]">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden md:block"> accents, and large windows that flood the space with natural light.
+              </p>
+              <button class=" bg-[#ABEF5F80] rounded-full px-16 py-1 md:py-3 md:px-5">
+                <div class="flex items-center justify-center gap-2">
+                  <p class="text-xl font-bold text-[#212121]">View Details</p>
+                  <div class="rounded-full bg-[#ABEF5F] py-2 px-3">
+                  <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                </div>
+              </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
 
