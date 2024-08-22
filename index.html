@@ -9,6 +9,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    
     <style>
       .manrope{
         font-family: "Manrope", sans-serif;
@@ -31,8 +33,8 @@
     <header class="px-4 py-3 md:pl-7 max-w-screen-xl mx-auto">
       <nav>
         <div class="navbar bg-base-100 flex justify-between md:flex md:justify-between">
-          <div>
-            <button class=" btn-circle bg-[#ABEF5F]">
+          <div class="flex gap-2">
+            <button class=" rounded-full py-2 px-3 bg-[#ABEF5F]">
               <i class="fa-solid fa-arrow-right -rotate-45"></i>
             </button>
             <a class=" text-4xl font-extrabold text-[#212121]">Rinterio</a>
@@ -96,7 +98,7 @@
       </section>
     </header>
     <main>
-<section class="bg-gray-300 bg-no-repeat" ">
+<section class="bg-gray-300 bg-no-repeat ">
   <div class=" max-w-screen-lg mx-auto p-10 md:p-0 md:flex items-center md:py-28">
     
     <div class="relative pb-4">
@@ -168,10 +170,75 @@
     </div>
 </section>
 
-
+<section class="bg-no-repeat bg-cover px-4 py-8 md:py-20 md:px-0" style="background-image: url(./assets/bg.jpg);" >
+  <div class="max-w-screen-lg mx-auto">
+  <div class="text-center">
+    <button class=" bg-[#ABEF5F] opacity-50 rounded-full px-2 py-1">
+      <div class="flex items-center justify-center gap-2">
+        <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
+        <p class="text-xl font-bold text-[#1C1C1C]">Let’s Connect</p>
+         </div>
+    </button>
+  </div>
+    <h1 class="text-2xl font-extrabold text-[#212121] py-3 text-center">Let’s Discuss Next <br class="md:hidden"> Project</h3>
+    <p class="text-[#494949] text-center">The barn house captivates with its blend of rustic charm and 
+      modern sophistication,<br class="hidden md:block"> featuring weathered wood, sleek metal accents.</p>
+    </div>
+<div class="max-w-screen-lg mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-6">
+    <input type="text" placeholder="First Name*" class="input bg-[#FFFFFF] rounded-full w-full h-16" />
+    <input type="text" placeholder="Last Name*" class="input bg-[#FFFFFF] rounded-full w-full h-16" />
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-6">
+    <input type="text" placeholder="Phone Number*" class="input bg-[#FFFFFF] rounded-full w-full h-16 " />
+    <input type="text" placeholder="Email Number*" class="input bg-[#FFFFFF] rounded-full w-full h-16 " />
+  </div>
+  <div>
+    <textarea class="textarea rounded-3xl w-full h-40" placeholder="Write your message here"></textarea>
+  </div>
+</div>
+<div class="max-w-screen-lg mx-auto py-6">
+<button class="w-full bg-[#ABEF5F] rounded-full py-2 px-5">
+  <div class="flex items-center justify-center gap-2">
+    <p class="text-xl font-bold text-[#1C1C1C]">Send Mail</p>
+    <div class="rounded-full bg-[#1C1C1C] py-2 px-3">
+    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+  </div>
+</div>
+</button>
+</div>
+</section>
     </main>
-    <footer>
+      <footer class="footer footer-center bg-[#1C1C1C] text-primary-content p-16">
+        <aside>
+          <div class="flex items-center gap-3 pb-4">
+            <button class=" rounded-full bg-[#ABEF5F] px-3 py-2">
+              <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+            </button>
+            <a class=" text-4xl font-extrabold text-white">Rinterio</a>
+          </div>
+          <p class="text-[#737373] text-center font-medium">
+            The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:block"> featuring weathered wood, sleek metal accents.
+          </p>
+          <ul class=" md:flex md:gap-28 pt-8 text-[#E9E9E9]">
+            <li class="pb-3 md:pb-0"><a>Home</a></li>
+            <li class="pb-3 md:pb-0"><a>Services</a></li>
+            <li class="pb-3 md:pb-0"><a>Portfolio</a></li>
+            <li class="pb-3 md:pb-0"><a>Blogs</a></li>
+            <li class="pb-3 md:pb-0"><a>Contact Us</a></li>
+          </ul>
+        </aside>
+        <div>
+          <button class=" bg-[#ABEF5F] rounded-full py-1 px-10 md:px-2">
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-base font-bold text-[#1C1C1C]">Book Consult</p>
+              <div class="rounded-full bg-[#1C1C1C] py-1 px-2">
+              <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+            </div>
+          </div>
+          </button>
+        </div>
+      </footer>
 
-    </footer>
 </body>
 </html>
