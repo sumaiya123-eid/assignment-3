@@ -30,18 +30,22 @@
 
 </head>
 <body class="manrope">
-    <header class="px-4 py-3 md:pl-7 max-w-screen-xl mx-auto">
+
+    <header class="px-4 py-3 md:pl-7 max-w-screen-xl mx-auto bg-gradient-to-b from-slate-50 to-white">
+
+      <!-- nav-section -->
+
       <nav>
-        <div class="navbar bg-base-100 flex justify-between md:flex md:justify-between">
+        <div class="navbar bg-gradient from-slate-50 to-white flex justify-between md:flex md:justify-between">
           <div class="flex gap-2">
-            <button class=" rounded-full py-2 px-3 bg-[#ABEF5F]">
+            <button class=" rounded-full py-1 px-2 bg-[#ABEF5F]">
               <i class="fa-solid fa-arrow-right -rotate-45"></i>
             </button>
-            <a class=" text-4xl font-extrabold text-[#212121]">Rinterio</a>
+            <a class=" text-2xl font-extrabold text-[#212121]">Rinterio</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-base text-[#737373]">
-              <li><a class="font-bold text-[#494949]">Home</a></li>
+              <li class="font-bold text-[#494949]"><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
               <li><a>Blogs</a></li>
@@ -50,16 +54,16 @@
             </ul>
           </div>
           <div class="hidden md:flex md:gap-3 ">
-            <button class=" btn-circle bg-[#E9E9E9]">
-              <i class="fa-solid fa-magnifying-glass"></i>
+            <button class=" btn-circle bg-[#FFFFFF]">
+              <i class="fa-solid fa-magnifying-glass text-[#737373]"></i> 
             </button>
-            <button class="btn-circle bg-[#E9E9E9]">
-              <i class="fa-solid fa-cart-shopping"></i>
+            <button class="btn-circle bg-[#FFFFFF]">
+              <i class="fa-solid fa-cart-shopping text-[#737373]"></i>
             </button>
-              <button class=" bg-[#ABEF5F] rounded-full py-3 px-5">
+              <button class=" bg-[#ABEF5F] rounded-full py-2 px-3">
               <div class="flex items-center justify-center gap-2">
-                <p class="text-xl font-bold text-[#1C1C1C]">Book Consult</p>
-                <div class="rounded-full bg-[#1C1C1C] py-2 px-3">
+                <p class="text-base font-bold text-[#1C1C1C]">Book Consult</p>
+                <div class="rounded-full bg-[#1C1C1C] py-1 px-2">
                 <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
               </div>
             </div>
@@ -68,26 +72,36 @@
             
           </div>
           <div class="dropdown">
-            <div tabindex="0" role="button" class="lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <i class="fa-solid fa-bars"></i>
             </div>
-            
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow right-0">
+              <li><a class="font-bold text-[#494949]">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              
+            </ul>
           </div>
         </div>
       </nav>
+
+      <!-- hero-section -->
+
       <section>
         <div class="hero">
           <div class="hero-content text-center">
-            <div class="">
+            <div>
               <img class="mx-auto" src="./assets/banner.png" alt="" srcset="">
-              <h1 class="text-3xl md:text-5xl font-extrabold text-[#212121]">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
+              <h1 class="text-3xl md:text-5xl font-extrabold text-[#212121] mt-5">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
               <p class="text-sm py-4 md:text-base md:py-6 text-[#494949]">
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden md:block"> accents, and large windows that flood the space with natural light.
               </p>
-              <button class=" bg-[#ABEF5F80] rounded-full px-16 py-1 md:py-3 md:px-5">
+              <button class=" bg-[#ABEF5F80] rounded-full w-full py-2 md:w-auto md:py-2 md:px-4 border border-2 border-[#ABEF5F]">
                 <div class="flex items-center justify-center gap-2">
-                  <p class="text-xl font-bold text-[#212121]">View Details</p>
-                  <div class="rounded-full bg-[#ABEF5F] py-2 px-3">
+                  <p class="text-base font-bold text-[#212121]">View Details</p>
+                  <div class="rounded-full bg-[#ABEF5F] py-1 px-2">
                   <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
                 </div>
               </div>
@@ -98,34 +112,38 @@
       </section>
     </header>
     <main>
-<section class="bg-gray-300 bg-no-repeat ">
-  <div class=" max-w-screen-lg mx-auto p-10 md:p-0 md:flex items-center md:py-28">
+
+<!-- about-us section -->
+
+<section class="bg-[#E9E9E9] ">
+  <div class=" max-w-screen-lg mx-auto p-6 md:p-0 md:flex items-center gap-8 md:py-28">
     
     <div class="relative pb-4">
       <img class="hidden md:block absolute -top-16 -left-16" src="./assets/Vector.png" alt="" srcset="">
       <div class="text-center md:text-start">
-      <button class=" bg-[#FFFFFF] rounded-full px-2 py-1">
+      <button class=" bg-[#FFFFFF] rounded-full px-3 py-1">
         <div class="flex items-center justify-center gap-2">
           <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
-          <p class="text-xl font-bold text-[#1C1C1C]">About Us</p>
+          <p class="text-base font-bold text-[#494949]">About Us</p>
            </div>
       </button>
     </div>
-      <h1 class="text-2xl font-extrabold text-[#212121] py-3 text-center md:text-start">We design thoughtful, <br> liveable spaces</h3>
-      <p class="text-[#494949] text-center md:text-start">The barn house captivates with its blend of rustic charm and 
-        modern sophistication, featuring weathered wood, sleek metal accents.</p>
-        <div class="flex md:items-center gap-3 bg-[#FFFFFF] rounded-md my-4 max-w-lg p-3">
-          <div><img src="./assets/commercial.png" alt="" srcset=""></div>
+      <h1 class="text-2xl md:text-4xl  font-extrabold text-[#212121] py-5 text-center md:text-start">We design thoughtful, <br> liveable spaces</h3>
+      <p class="text-[#494949] text-sm text-center md:text-start pb-2"> Designing thoughtful and livable spaces means focusing not just on <br class="hidden md:block"> aesthetics, but also on how people interact with and experience those spaces.</p>
+        <div class="flex md:items-center gap-3 bg-[#FFFFFF] rounded-md my-4 max-w-lg p-4">
           <div>
-            <h4 class="font-xl text-[#494949] font-bold">Commercial</h4>
-            <p class="text-[#737373]">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+            <img src="./assets/commercial.png" alt="" srcset="">
+          </div>
+          <div>
+            <h4 class="font-xl text-[#494949] font-bold pb-3">Commercial</h4>
+            <p class="text-sm text-[#737373]">When it comes to commercial interior design, <br  class="hidden md:block"> the focus often shifts to creating functional, <br  class="hidden md:block"> engaging, and efficient spaces.</p>
           </div>
         </div>
-        <div class="flex md:items-center gap-3 bg-[#FFFFFF] rounded-md max-w-lg p-3">
+        <div class="flex md:items-center gap-3 bg-[#FFFFFF] rounded-md max-w-lg p-4">
           <div><img src="./assets/residential.png" alt="" srcset=""></div>
           <div>
-            <h4 class="font-xl text-[#494949] font-bold">Residential</h4>
-            <p class="text-[#737373]">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+            <h4 class="font-xl text-[#494949] font-bold pb-3">Residential</h4>
+            <p class="text-[#737373] text-sm">Residential interior design focuses on creating <br  class="hidden md:block"> spaces that reflect the personality and lifestyle <br  class="hidden md:block"> of the homeowners .</p>
           </div>
         </div>
     </div>
@@ -135,73 +153,158 @@
   </div>
 <div>
   <div class="text-center">
-    <button class=" bg-[#FFFFFF] rounded-full px-2 py-1">
+    <button class=" bg-[#FFFFFF] rounded-full px-3 py-1">
       <div class="flex items-center justify-center gap-2">
         <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
-        <p class="text-xl font-bold text-[#1C1C1C]">How we works</p>
+        <p class="text-base font-bold text-[#494949]">How we works</p>
          </div>
     </button>
   </div>
-    <h1 class="text-2xl font-extrabold text-[#212121] py-3 text-center">Our Works Process</h3>
-    <p class="text-[#494949] text-center">The barn house captivates with its blend of rustic charm and 
-      modern sophistication,<br class="hidden md:block"> featuring weathered wood, sleek metal accents.</p>
+    <h1 class="text-3xl md:text-4xl  font-extrabold text-[#212121] py-3 text-center">Our Works Process</h3>
+    <p class="text-[#494949] text-sm text-center px-3 md:px-0">Our work process in interior design typically involves several key stages, each critical to <br class="hidden md:block">transforming a concept into a finished space.</p>
     </div>
-    <div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-6 px-3 py-3 md:py-8 md:px-0">
+    <div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-6 px-6 py-6 md:py-8 md:px-0">
       <div class="bg-[#E7C1D3] rounded-lg p-6">
         <img src="./assets/concept.png" alt="" srcset="">
         <h4 class="font-xl text-[#494949] font-bold py-3">Concept</h4>
-        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+        <p class="text-[#737373] text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
       </div>
       <div class="bg-[#EFDA6E] rounded-lg p-6">
         <img src="./assets/flow-chart.png" alt="" srcset="">
         <h4 class="font-xl text-[#494949] font-bold py-3">Design Process</h4>
-        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+        <p class="text-[#737373] text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
       </div>
       <div class="bg-[#A4DAC3] rounded-lg p-6">
         <img src="./assets/vision.png" alt="" srcset="">
         <h4 class="font-xl text-[#494949] font-bold py-3">Supervision</h4>
-        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+        <p class="text-[#737373] text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
       </div>
       <div class="bg-[#77AAEA] rounded-lg p-6">
         <img src="./assets/concept.png" alt="" srcset="">
         <h4 class="font-xl text-[#494949] font-bold py-3">Budget Planning</h4>
-        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+        <p class="text-[#737373] text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
       </div>
     </div>
 </section>
 
-<section class="bg-no-repeat bg-cover px-4 py-8 md:py-20 md:px-0" style="background-image: url(./assets/bg.jpg);" >
-  <div class="max-w-screen-lg mx-auto">
+<!-- latest-portfolio section -->
+
+<section class="bg-[#E9E9E9] md:bg-white max-w-screen-lg mx-auto md:my-28 p-6 md:p-0">
+
   <div class="text-center">
-    <button class=" bg-[#ABEF5F] opacity-50 rounded-full px-2 py-1">
+    <button class=" bg-[#ABEF5F33] rounded-full px-4 py-1">
       <div class="flex items-center justify-center gap-2">
         <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
-        <p class="text-xl font-bold text-[#1C1C1C]">Let’s Connect</p>
+        <p class="text-base font-bold text-[#494949]">Explore our Latest works</p>
          </div>
     </button>
   </div>
-    <h1 class="text-2xl font-extrabold text-[#212121] py-3 text-center">Let’s Discuss Next <br class="md:hidden"> Project</h3>
-    <p class="text-[#494949] text-center">The barn house captivates with its blend of rustic charm and 
-      modern sophistication,<br class="hidden md:block"> featuring weathered wood, sleek metal accents.</p>
+    <h1 class="text-3xl md:text-4xl font-extrabold text-[#212121] py-4 text-center">Our Latest Portfolio</h3>
+    <p class="text-[#494949] text-sm text-center">Our latest trends and showcasing a modern  portfolio is essential for interior <br  class="hidden md:block"> designers to attract and retain clients.</p>
+    </div>
+
+  <div class="md:flex items-center gap-4 mt-6 md:mt-10">
+    <div class="md:flex items-center gap-3 border border-2 p-4 rounded-2xl mb-4 md:mb-0 bg-white">
+      <div>
+        <img class="mx-auto w-full" src="./assets/img1.png" alt="" srcset="">
+      </div>
+      <div>
+        <h4 class="font-lg text-[#494949] font-bold py-4 md:py-1 ">Commercial</h4>
+        <p class="text-[#737373] text-sm pb-2">Commercial interior design process, it’s crucial to balance aesthetics with functionality, adhere to brand guidelines.</p>
+        <button>
+          <div class="flex items-center justify-center gap-2">
+            <p class="text-sm font-bold text-[#1C1C1C]">View Details</p>
+            <div class="rounded-full bg-[#ABEF5F] py-1 px-2">
+            <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+          </div>
+        </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="border border-2 rounded-2xl p-4  bg-white">
+      <img class="" src="./assets/img2.png" alt="">
+    </div>
+  </div>
+
+  <div class="md:flex items-center gap-4 my-4">
+
+    <div class="hidden md:block border border-2 p-4 rounded-2xl">
+      <img class="mx-auto w-full" src="./assets/img3.png" alt="" srcset="">
+    </div>
+
+    <div class="md:hidden border border-2 p-4 rounded-2xl bg-white">
+      <img class="mx-auto w-full" src="./assets/img5.png" alt="" srcset="">
+    </div>
+    
+    <div class="md:flex items-center gap-3 border border-2 p-4 rounded-2xl my-4 md:my-0  bg-white">
+      <div>
+        <img class="mx-auto w-full" src="./assets/img4.png" alt="" srcset="">
+      </div>
+      <div>
+        <h4 class=" text-[#494949] font-bold py-4 md:py-1">Commercial</h4>
+        <p class="text-[#737373] text-sm pb-2">Commercial interior design plays a crucial role in the success of a business.</p>
+        <button>
+          <div class="flex items-center justify-center gap-2">
+            <p class="text-sm font-bold text-[#1C1C1C]">View Details</p>
+            <div class="rounded-full bg-[#ABEF5F] py-1 px-2">
+            <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+          </div>
+        </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="hidden md:block border border-2 p-4 rounded-2xl">
+      <img class="mx-auto w-full" src="./assets/img5.png" alt="" srcset="">
+    </div>
+
+    <div class="md:hidden border border-2 p-4 rounded-2xl  bg-white">
+      <img class="mx-auto w-full" src="./assets/img3.png" alt="" srcset="">
+    </div>
+
+    <div class="md:hidden border border-2 p-4 rounded-2xl mt-4  bg-white">
+      <img class="mx-auto w-full" src="./assets/img5.png" alt="" srcset="">
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- next-project section -->
+
+<section class="bg-no-repeat bg-cover px-4 py-8 md:py-20 md:px-0" style="background-image: url(./assets/bg.jpg);" >
+  <div class="max-w-screen-lg mx-auto">
+  <div class="text-center">
+    <button class=" bg-[#ABEF5F33] rounded-full px-3 py-1">
+      <div class="flex items-center justify-center gap-2">
+        <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
+        <p class="text-base font-bold text-[#1C1C1C]">Let’s Connect</p>
+         </div>
+    </button>
+  </div>
+    <h1 class="text-3xl md:text-4xl  font-extrabold text-[#212121] py-4 text-center">Let’s Discuss Next <br class="md:hidden"> Project</h3>
+    <p class="text-[#494949] text-sm text-center">Planning our next interior design project involves a series of steps to ensure <br class="hidden md:block"> that the project aligns with our creative vision, meets client needs, and is completed efficiently.</p>
     </div>
 <div class="max-w-screen-lg mx-auto">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 md:py-6">
     <input type="text" placeholder="First Name*" class="input bg-[#FFFFFF] rounded-full w-full h-16" />
     <input type="text" placeholder="Last Name*" class="input bg-[#FFFFFF] rounded-full w-full h-16" />
   </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 md:pb-6">
     <input type="text" placeholder="Phone Number*" class="input bg-[#FFFFFF] rounded-full w-full h-16 " />
     <input type="text" placeholder="Email Number*" class="input bg-[#FFFFFF] rounded-full w-full h-16 " />
   </div>
   <div>
-    <textarea class="textarea rounded-3xl w-full h-40" placeholder="Write your message here"></textarea>
+    <textarea class="textarea rounded-3xl w-full h-40 resize-none" placeholder="Write your message here"></textarea>
   </div>
 </div>
 <div class="max-w-screen-lg mx-auto py-6">
 <button class="w-full bg-[#ABEF5F] rounded-full py-2 px-5">
   <div class="flex items-center justify-center gap-2">
-    <p class="text-xl font-bold text-[#1C1C1C]">Send Mail</p>
-    <div class="rounded-full bg-[#1C1C1C] py-2 px-3">
+    <p class="text-base font-bold text-[#1C1C1C]">Send Mail</p>
+    <div class="rounded-full bg-[#1C1C1C] py-1 px-2">
     <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
   </div>
 </div>
@@ -209,6 +312,8 @@
 </div>
 </section>
     </main>
+
+    <!-- footer section -->
       <footer class="footer footer-center bg-[#1C1C1C] text-primary-content p-16">
         <aside>
           <div class="flex items-center gap-3 pb-4">
@@ -218,7 +323,7 @@
             <a class=" text-4xl font-extrabold text-white">Rinterio</a>
           </div>
           <p class="text-[#737373] text-center font-medium">
-            The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:block"> featuring weathered wood, sleek metal accents.
+            At Rinterio, we transform spaces into personalized, functional, and beautifully designed <br class="hidden md:block">environments. Our commitment to quality and attention to detail."
           </p>
           <ul class=" md:flex md:gap-28 pt-8 text-[#E9E9E9]">
             <li class="pb-3 md:pb-0"><a>Home</a></li>
@@ -229,9 +334,9 @@
           </ul>
         </aside>
         <div>
-          <button class=" bg-[#ABEF5F] rounded-full py-1 px-10 md:px-2">
+          <button class=" bg-[#ABEF5F] rounded-full py-1 px-4 md:px-2">
             <div class="flex items-center justify-center gap-2">
-              <p class="text-base font-bold text-[#1C1C1C]">Book Consult</p>
+              <p class="text-sm font-bold text-[#1C1C1C]">Book Consult</p>
               <div class="rounded-full bg-[#1C1C1C] py-1 px-2">
               <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
             </div>
