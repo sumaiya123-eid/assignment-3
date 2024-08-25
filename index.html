@@ -54,10 +54,10 @@
             </ul>
           </div>
           <div class="hidden md:flex md:gap-3 ">
-            <button class=" btn-circle bg-[#FFFFFF]">
+            <button class=" btn-circle bg-[#FFFFFF] border">
               <i class="fa-solid fa-magnifying-glass text-[#737373]"></i> 
             </button>
-            <button class="btn-circle bg-[#FFFFFF]">
+            <button class="btn-circle bg-[#FFFFFF] border">
               <i class="fa-solid fa-cart-shopping text-[#737373]"></i>
             </button>
               <button class=" bg-[#ABEF5F] rounded-full py-2 px-3">
@@ -73,7 +73,10 @@
           </div>
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <i class="fa-solid fa-bars"></i>
+              <button class=" btn-circle bg-[#FFFFFF] border">
+                <i class="fa-solid fa-bars "></i>
+              </button>
+              
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow right-0">
               <li><a class="font-bold text-[#494949]">Home</a></li>
@@ -274,7 +277,7 @@
 
 <!-- next-project section -->
 
-<section class="bg-no-repeat bg-cover px-4 py-8 md:py-20 md:px-0" style="background-image: url(./assets/bg.jpg);" >
+<section class="bg-no-repeat bg-cover px-4 py-8 md:py-20 md:px-0 bg-[url('./assets/bg.jpg')]" >
   <div class="max-w-screen-lg mx-auto">
   <div class="text-center">
     <button class=" bg-[#ABEF5F33] rounded-full px-3 py-1">
@@ -317,7 +320,7 @@
 <section class="max-w-screen-lg mx-auto my-20">
 
   <div class="text-center">
-    <button class="  bg-[#ABEF5F] rounded-full px-5 py-2">
+    <button class="  bg-[#ABEF5F33] rounded-full px-5 py-2">
       <div class="flex items-center justify-center gap-2">
         <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
         <p class="text-xl font-bold text-[#494949]">Reviews</p>
@@ -391,7 +394,7 @@
   
   <div class="md:my-16 p-6 my-6">
     <div class="text-center">
-      <button class="  bg-[#ABEF5F] rounded-full px-5 py-2">
+      <button class="  bg-[#ABEF5F33] rounded-full px-5 py-2">
         <div class="flex items-center justify-center gap-2">
           <i class="fa-solid fa-arrow-right text-[#1C1C1C]"></i>
           <p class="text-xl font-bold text-[#494949]">Common Question</p>
@@ -402,35 +405,35 @@
     <h1 class="text-3xl md:text-4xl text-center font-extrabold text-black py-6">Some Common Question</h1>
     <div class="collapse collapse-arrow bg-base-200 mb-5">
       <input type="radio" name="my-accordion-2" checked="checked" />
-      <div class="collapse-title text-xl md:text-2xl font-medium text-black font-bold">What services do we offer?</div>
+      <div class="collapse-title text-xl font-medium text-black font-bold">What services do we offer?</div>
       <div class="collapse-content">
         <p>We offer a range of interior design services, including space planning, color consultations, furniture selection, custom design solutions, and project management. Whether you're looking to redesign a single room or undertake a full home renovation, our team is here to help.</p>
       </div>
     </div>
     <div class="collapse collapse-arrow bg-base-200 mb-5">
       <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl md:text-2xl font-medium text-black font-bold">How can we get a quote for our project?</div>
+      <div class="collapse-title text-xl font-medium text-black font-bold">How can we get a quote for our project?</div>
       <div class="collapse-content">
         <p> To receive a quote, please fill out the contact form on our website with details about your project, including the scope, style preferences, and budget. Alternatively, you can schedule a consultation with one of our designers who will provide a personalized quote based on your needs.</p>
       </div>
     </div>
     <div class="collapse collapse-arrow bg-base-200 mb-5">
       <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl md:text-2xl font-medium text-black font-bold">Do we provide virtual design services?</div>
+      <div class="collapse-title text-xl font-medium text-black font-bold">Do we provide virtual design services?</div>
       <div class="collapse-content">
         <p>Yes, we offer virtual design services. Our team can work with you through video calls, emails, and online design tools to create a design plan tailored to your space, regardless of your location.</p>
       </div>
     </div>
     <div class="collapse collapse-arrow bg-base-200 mb-5">
       <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl md:text-2xl font-medium text-black font-bold">How do I schedule a consultation?</div>
+      <div class="collapse-title text-xl font-medium text-black font-bold">How do I schedule a consultation?</div>
       <div class="collapse-content">
         <p> You can schedule a consultation by using our online booking system on the website or by contacting us directly via phone or email. We offer both in-person and virtual consultations to suit your preferences.</p>
       </div>
     </div>
     <div class="collapse collapse-arrow bg-base-200 mb-5">
       <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl md:text-2xl font-medium text-black font-bold"> Do we offer design packages?</div>
+      <div class="collapse-title text-xl font-medium text-black font-bold"> Do we offer design packages?</div>
       <div class="collapse-content">
         <p> Yes, we offer various design packages to suit different needs and budgets. These packages can range from basic design consultations to comprehensive full-service design and project management. Please contact us for more details on our packages and pricing.</p>
       </div>
